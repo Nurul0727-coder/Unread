@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "SF Display ", sans-serif;
+}
+
+header {
+  height: 100px;
+  background-color: red;
+}
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgb(0, 0, 0)),
+    url("https://unread.today/files/007afc64-288a-4208-b9d7-3eda84011c1d/1451f11e03da76480966b636a622119a.jpg");
+  background-size: 100%;
+}
+.hero-left {
+  width: 446px;
+  height: 446px;
+  border-radius: 20px;
+  background-image: url("hero.png");
+  background-size: cover;
+  
+  
+}
+.hero-content {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.hero-content div {
+  width: 50%;
+  height: 300 px;
+}
+.hero-content h1 {
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+  text-transform: uppercase;
+}
+.hero-content-text {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+  .today{
+    color: rgba(0, 120, 246, 1);
+                font-size: 14.1px;
+                padding-bottom: 5px;
+
+  }
+}
