@@ -10,42 +10,56 @@
     url("https://unread.today/files/007afc64-288a-4208-b9d7-3eda84011c1d/1451f11e03da76480966b636a622119a.jpg");
   background-size: 100%;
 }
-.menu{
+.menu {
   padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
 }
 .menu-pic {
   padding-bottom: 35px;
-  gap: 4px;
 }
-.menu-bar1{
-  display: flex; 
+
+.menu-bar1 {
+  display: flex;
   justify-content: center;
-   gap: 50px;
-  
+  gap: 50px;
 }
-.menu-bar2{
+.menu-text1 {
+  color: white;
+  font-weight: 500;
+  font-size: 11px;
+  opacity: 0.4;
+}
+.menu-bar2 {
   display: flex;
   justify-content: center;
   gap: 20px;
-}
-.menu {
-  display: flex;
-  justify-content: space-around;
-}
-.text1 {
   color: white;
 }
-.button{
- width: 200px;
- height: 60px;
-  color: white; 
+.menu-text2 {
+  top: -2.5;
+  font-weight: 400;
+  font-size: 13px;
+  opacity: 0.4;
+}
+.menu-text3 {
+  font-weight: 600;
+  font-size: 14px;
+}
+.button {
   border-radius: 30px;
-  
+  gap: 30px;
   display: inline-block;
   background-color: rgba(209, 209, 209, 0.6);
-  font-size: 20px;
   font-weight: 500;
-  text-decoration: none;
+  font-size: 13px;
+  padding: 15px;
+}
+.social-icons {
+  gap: 15px;
 }
 .logo {
   width: 150px;
@@ -59,15 +73,11 @@
   display: flex;
   justify-content: space-between;
   color: white;
-}
-.hero-content {
-  width: 50%;
-  height: 300 px;
-}
-.hero-content h1 {
-  -webkit-text-stroke: 1px white;
-  color: transparent;
-  text-transform: uppercase;
+  .hero-content h1 {
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    text-transform: uppercase;
+  }
 }
 .hero-content-text {
   margin-left: 50px;
@@ -76,7 +86,7 @@
 }
 .today {
   color: rgba(0, 120, 246, 1);
-  font-size: 14.1px;
+  font-size: 14px;
   font-weight: 700;
 }
 .profile {
@@ -85,4 +95,40 @@
   height: 50px;
   margin-top: 150px;
   gap: 20px;
+}
+.black-screen {
+  background-size: 100%;
+  height: 350px;
+  background-color: rgba(0, 0, 0, 1);
+  margin-top: -150px;
+  color: white;
+  font-weight: 100;
+  font-size: 13px;
+}
+.switch-button {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  gap: 1200px;
+}
+.symbols {
+  background-color: gray;
+  border-radius: 100px;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -220px;
+}
+.article {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  margin-top: 130px;
+  font-weight: 500;
+  font-size: 13px;
 }
