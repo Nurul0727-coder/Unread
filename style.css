@@ -123,6 +123,13 @@
   display: flex;
   justify-content: space-around;
   margin-top: -220px;
+  
+ 
+}
+.cover-pic{
+  gap: 60px;
+   border-radius: 50px;
+   background-color: blueviolet;
 }
 .article {
   display: flex;
