@@ -315,7 +315,7 @@
   grid-row: 1/2;
 }
 .grid-article2 {
-  background-image: url(article\ img-2.png);
+  background-image: url(book2.png);
   grid-column: 2/1;
   grid-row: 2/3;
   border-radius: 20px;
@@ -323,7 +323,7 @@
   width: 264.75px;
 }
 .grid-article3 {
-  background-image: url(article\ img3.png);
+  background-image: url(book3.png);
   border-radius: 20px;
   grid-column: 2/2;
   grid-row: 3/2;
@@ -331,73 +331,78 @@
   width: 264.75px;
 }
 .grid-article4 {
-  background-image: url(article\ img-4.png);
+  background-image: url(book4.png);
   border-radius: 20px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .grid-article5 {
-  background-image: url(article\ img-5.png);
+  background-image: url(book5.png);
   border-radius: 20px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .grid-article6 {
-  background-image: url(article\ img6.png);
+  background-image: url(book6.png);
   border-radius: 20px;
   background-repeat: no-repeat;
 }
 .grid-article7 {
-  background-image: url(article\ img7.png);
+  background-image: url(book7.png);
   border-radius: 20px;
   background-repeat: no-repeat;
 }
-
-.grid-articles {
-  width: 1100px;
-  height: 600px;
-  margin-left: 150px;
+.grid-article-second {
+  width: 1116px;
+  height: 633px;
+  margin-left: auto;
+  margin-top: 30px;
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  padding: 30px;
-  gap: 20px;
+  grid-template-columns: 1fr 1fr;
 }
+
 .grid-articleA {
-  background-image: url(article\ imgA.png);
-  grid-column: 1 / 3;
-  grid-row: 1/ 2;
-  background-size: cover;
-  border-radius: 20px;
+  color: white;
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 .grid-articleB {
-  background-image: url(Article\ imgB.png);
+  background-image: url(bookB.png);
   grid-column: 2/1;
   grid-row: 2/3;
   border-radius: 20px;
+  height: 234.24px;
+  width: 264.75px;
 }
 .grid-articleC {
-  background-image: url(Article\ imgC.png);
+  background-image: url(bookC.png);
   border-radius: 20px;
   grid-column: 2/2;
   grid-row: 3/2;
+  height: 234.24px;
+  width: 264.75px;
 }
 .grid-articleD {
-  background-image: url(Article\ imgD.png);
+  background-image: url(bookD.png);
   border-radius: 20px;
-  grid-column: 3/ 4;
-  grid-row: 1/1;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .grid-articleE {
-  background-image: url(article\ img\ E.png);
+  background-image: url(bookE.png);
   border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .grid-articleF {
-  background-image: url(article\ img\ F.png);
+  background-image: url(bookF.png);
   border-radius: 20px;
+  background-size: cover;
 }
 .grid-articleG {
-  background-image: url(article\ imgG.png);
+  background-image: url(bookG.png);
   border-radius: 20px;
+  background-size: cover;
 }
 .grid-footerA {
   width: 100%;
