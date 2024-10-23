@@ -484,7 +484,7 @@
   font-size: 12px;
   font-weight: 400;
   color: gray;
-  width: 208px;
+  width: 208px;padding-top: 20px;
 }
 .second {
   font-size: 12px;
