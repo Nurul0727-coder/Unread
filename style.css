@@ -16,15 +16,18 @@
   display: flex;
   justify-content: space-between;
   padding: 50px;
+  align-items: center;
 }
 .menu-pic {
-  padding-bottom: 35px;
+  display: flex;
+  align-items: center;
 }
 
 .menu-bar1 {
   display: flex;
   justify-content: center;
   gap: 50px;
+  align-items: center;
 }
 .menu-text1 {
   color: white;
@@ -36,6 +39,9 @@
   gap: 20px;
   color: white;
   height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .menu-text2 {
   top: -2.5;
@@ -54,7 +60,8 @@
 .button {
   border-radius: 30px;
   gap: 30px;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   background-color: rgba(209, 209, 209, 0.6);
   font-weight: 500;
   font-size: 13px;
@@ -100,6 +107,7 @@
 .search {
   display: flex;
   width: 140px;
+  align-items: center;
 }
 .hero-content {
   width: 800px;
@@ -177,23 +185,28 @@
 }
 .card-background1 {
   background-image: url(cover\ pic1.png);
+  background-size: cover;
   border-radius: 10px;
 }
 .card-background2 {
   background-image: url(cover\ pic2.png);
   border-radius: 10px;
+  background-size: cover;
 }
 .card-background3 {
   background-image: url(coverpic3.png);
   border-radius: 10px;
+  background-size: cover;
 }
 .card-background4 {
   background-image: url(cover\ pic4.png);
   border-radius: 10px;
+  background-size: cover;
 }
 .card-background5 {
   background-image: url(cover\ pic5.png);
   border-radius: 10px;
+  background-size: cover;
 }
 
 .card-cover {
@@ -266,6 +279,10 @@
   overflow-x: scroll;
   gap: 30px;
 }
+.cover-pic::-webkit-scrollbar {
+  display: none;
+}
+
 .article-container {
   display: flex;
   flex-direction: column;
@@ -475,22 +492,20 @@
   background-size: cover;
 }
 .grid-footerA {
-  width: 1440px;
+  width: 100%;
   margin-top: 100px;
-  height: 750px;
+  height: 500px;
   background-color: black;
   display: flex;
   justify-content: start;
   gap: 30px;
 }
 
-.grid-footerB {
-  width: auto;
-  height: 403px;
-}
 .container {
   display: flex;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer-container1 {
   margin-top: 50px;
@@ -575,16 +590,18 @@
   padding-top: 20px;
 }
 .footer-container3 {
-  width: 1151px;
+  width: 100%;
   height: 72px;
-  margin-left: 100px;
+
   background-color: black;
+  margin-top: -100px;
 }
 .social-link {
   gap: 35px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 80px;
-  margin-left: 150px;
   opacity: 20%;
+  margin-left: auto;
+  margin-right: auto;
 }
