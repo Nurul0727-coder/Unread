@@ -33,20 +33,23 @@
   opacity: 0.4;
 }
 .menu-bar2 {
-  display: flex;
-  justify-content: center;
   gap: 20px;
   color: white;
+  height: 45px;
 }
 .menu-text2 {
   top: -2.5;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 12px;
   opacity: 0.4;
 }
 .menu-text3 {
   font-weight: 600;
   font-size: 14px;
+}
+.blink {
+  display: flex;
+  justify-content: space-around;
 }
 .button {
   border-radius: 30px;
@@ -56,14 +59,47 @@
   font-weight: 500;
   font-size: 13px;
   padding: 15px;
+  width: 142px;
+  height: 21px;
 }
+.blue-dot {
+  width: 8px;
+  height: 8px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 120, 246, 1);
+  border-radius: 50%;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+/* animation: blink 2s infinite; */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .social-icons {
   gap: 15px;
+  display: flex;
+  justify-content: center;
+  opacity: 0.4;
 }
 .logo {
   width: 150px;
   height: 20px;
   top: 15px;
+}
+.search {
+  display: flex;
+  width: 140px;
 }
 .hero-content {
   width: 800px;
@@ -87,6 +123,7 @@
   color: rgba(0, 120, 246, 1);
   font-size: 14px;
   font-weight: 700;
+  animation: blink 2s infinite;
 }
 .profile {
   display: flex;
@@ -95,6 +132,15 @@
   margin-top: 150px;
   gap: 20px;
 }
+.tushigte {
+  width: 50px;
+  height: 50px;
+}
+.dot {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 .black-screen {
   background-size: 100%;
   height: 350px;
@@ -129,16 +175,35 @@
   justify-content: space-around;
   margin-top: -220px;
 }
+.card-background1 {
+  background-image: url(cover\ pic1.png);
+  border-radius: 10px;
+}
+.card-background2 {
+  background-image: url(cover\ pic2.png);
+  border-radius: 10px;
+}
+.card-background3 {
+  background-image: url(coverpic3.png);
+  border-radius: 10px;
+}
+.card-background4 {
+  background-image: url(cover\ pic4.png);
+  border-radius: 10px;
+}
+.card-background5 {
+  background-image: url(cover\ pic5.png);
+  border-radius: 10px;
+}
+
 .card-cover {
-  min-width: 300px;
+  min-width: 350px;
   width: 300px;
-  height: 350px;
-  border-radius: 30px;
+  height: 433px;
+  border-radius: 10px;
   padding-top: 10px;
-  background-color: lightblue;
 }
-.background-img {
-}
+
 .lead {
   display: flex;
   justify-content: space-between;
@@ -154,6 +219,9 @@
 }
 .read {
   color: white;
+}
+.card-textB {
+  margin-top: 90px;
 }
 .card-text {
   color: white;
@@ -192,16 +260,16 @@
   padding-top: 10px;
 }
 .cover-pic {
-  width: 1440px;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   overflow-x: scroll;
-  gap: 20px;
+  gap: 30px;
 }
 .article-container {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 60%;
   border-radius: 0 0 50px 50px;
   margin: 0 auto;
   padding-top: 30px;
@@ -288,6 +356,7 @@
   width: 1116px;
   height: 633px;
   margin-left: auto;
+  margin-right: auto;
   margin-top: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -359,6 +428,7 @@
   margin-top: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-right: auto;
 }
 
 .grid-articleA {
@@ -405,7 +475,7 @@
   background-size: cover;
 }
 .grid-footerA {
-  width: 100%;
+  width: 1440px;
   margin-top: 100px;
   height: 750px;
   background-color: black;
@@ -451,10 +521,14 @@
   display: flex;
   justify-content: center;
   gap: 20px;
-  width: 397px;
+  width: 450px;
   height: 21px;
   font-size: 13px;
   font-weight: 500px;
+}
+.footer-dot {
+  width: 10px;
+  height: 10px;
 }
 .intellectual-property {
   font-size: 10px;
@@ -462,7 +536,6 @@
   width: 500px;
   font-weight: 400;
   height: 26px;
-  margin-left: 20px;
   margin-top: 30px;
 }
 .grid-footer {
@@ -479,12 +552,14 @@
 }
 .width {
   display: block;
+  padding-top: 10px;
 }
 .first {
   font-size: 12px;
   font-weight: 400;
   color: gray;
-  width: 208px;padding-top: 20px;
+  width: 208px;
+  padding-top: 20px;
 }
 .second {
   font-size: 12px;
@@ -497,11 +572,13 @@
   font-weight: 400;
   color: gray;
   width: 208px;
+  padding-top: 20px;
 }
 .footer-container3 {
   width: 1151px;
   height: 72px;
   margin-left: 100px;
+  background-color: black;
 }
 .social-link {
   gap: 35px;
