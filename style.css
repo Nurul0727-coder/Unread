@@ -3,7 +3,6 @@
   padding: 0;
   font-family: "inter", sans-serif;
 }
-
 .hero {
   height: 80vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgb(0, 0, 0)),
@@ -22,7 +21,6 @@
   display: flex;
   align-items: center;
 }
-
 .menu-bar1 {
   display: flex;
   justify-content: center;
@@ -92,7 +90,6 @@
     opacity: 1;
   }
 }
-
 .social-icons {
   gap: 15px;
   display: flex;
@@ -114,6 +111,7 @@
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  background-size: cover;
   justify-content: space-between;
   color: white;
   .hero-content h1 {
@@ -121,6 +119,24 @@
     color: transparent;
     text-transform: uppercase;
   }
+}
+.img-frame {
+  border-radius: 20px;
+  width: 800px;
+  height: 450px;
+  margin-top: 100px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coverpic-hover {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.2s;
+}
+.coverpic-hover:hover {
+  transform: scale(1.5);
 }
 .hero-content-text {
   margin-left: 50px;
@@ -148,7 +164,6 @@
   padding-left: 5px;
   padding-right: 5px;
 }
-
 .black-screen {
   background-size: 100%;
   height: 350px;
@@ -185,8 +200,13 @@
 }
 .card-background1 {
   background-image: url(cover\ pic1.png);
-  background-size: cover;
+  background-size: 100%;
   border-radius: 10px;
+  transition: transform 0.2s;
+}
+.card-background1:hover {
+  background-size: 110%;
+  transform: width(1.5);
 }
 .card-background2 {
   background-image: url(cover\ pic2.png);
@@ -208,7 +228,6 @@
   border-radius: 10px;
   background-size: cover;
 }
-
 .card-cover {
   min-width: 350px;
   width: 300px;
@@ -216,7 +235,6 @@
   border-radius: 10px;
   padding-top: 10px;
 }
-
 .lead {
   display: flex;
   justify-content: space-between;
@@ -282,7 +300,6 @@
 .cover-pic::-webkit-scrollbar {
   display: none;
 }
-
 .article-container {
   display: flex;
   flex-direction: column;
@@ -294,11 +311,17 @@
 }
 .article {
   width: 750px;
-
   height: 250px;
   gap: 20px;
   font-weight: 500;
   font-size: 13px;
+}
+.article:hover {
+}
+.profile-item {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
 }
 .article-right {
   align-self: flex-end;
@@ -309,7 +332,6 @@
   justify-content: end;
   gap: 10px;
 }
-
 .date {
   opacity: 0.4;
 }
@@ -319,6 +341,10 @@
   border-radius: 0 27px 27px 27px;
   margin-top: 13px;
   background-color: white;
+  letter-spacing: 0.015rem;
+}
+.article-item:hover {
+  box-shadow: 0px 0px 50px 4px rgba(194, 193, 193, 0.3);
 }
 .meduushtei {
   display: flex;
@@ -343,6 +369,10 @@
   padding-left: 50px;
   padding-top: 5px;
   width: 600px;
+  color: black;
+}
+.text2:hover {
+  color: rgba(0, 120, 246, 1);
 }
 .cover {
   padding-left: 540px;
@@ -378,23 +408,19 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
 .top-left {
   display: grid;
   gap: 19px;
   grid-template-columns: 264.75px 264.75px;
 }
-
 .top-right {
   width: 558px;
 }
-
 .top-right {
   display: grid;
   gap: 19px;
   grid-template-columns: 264.75px 264.75px;
 }
-
 .grid-article1 {
   color: white;
   grid-column: 1/2;
@@ -447,7 +473,6 @@
   grid-template-columns: 1fr 1fr;
   margin-right: auto;
 }
-
 .grid-articleA {
   color: white;
   grid-column: 1/2;
@@ -500,7 +525,6 @@
   justify-content: start;
   gap: 30px;
 }
-
 .container {
   display: flex;
   justify-content: center;
@@ -592,7 +616,6 @@
 .footer-container3 {
   width: 100%;
   height: 72px;
-
   background-color: black;
   margin-top: -100px;
 }
