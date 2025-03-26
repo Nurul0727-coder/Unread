@@ -9,12 +9,11 @@
     url("https://unread.today/files/007afc64-288a-4208-b9d7-3eda84011c1d/1451f11e03da76480966b636a622119a.jpg");
 }
 .menu {
-  padding-top: 50px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: space-between;
-  padding: 50px;
+  padding: 20px;
   align-items: center;
 }
 .menu-pic {
@@ -29,7 +28,7 @@
 }
 .menu-text1 {
   color: white;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 11px;
   opacity: 0.4;
 }
@@ -66,6 +65,7 @@
   padding: 15px;
   width: 142px;
   height: 21px;
+  margin-top: 2px;
 }
 .blue-dot {
   width: 8px;
@@ -77,6 +77,8 @@
   animation-name: blink;
   animation-iteration-count: infinite;
   animation-duration: 2s;
+  margin-top: 5px;
+  margin-right: 7px;
 }
 /* animation: blink 2s infinite; */
 @keyframes blink {
@@ -107,7 +109,7 @@
   align-items: center;
 }
 .hero-content {
-  width: 1000px;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -122,7 +124,7 @@
 }
 .img-frame {
   border-radius: 20px;
-  width: 800px;
+  width: 1000px;
   height: 450px;
   margin-top: 100px;
   overflow: hidden;
@@ -133,7 +135,7 @@
 .coverpic-hover {
   width: 100%;
   height: 100%;
-  transition: transform 0.2s;
+  transition: transform 0.5s;
 }
 .coverpic-hover:hover {
   transform: scale(1.5);
@@ -160,6 +162,17 @@
   width: 50px;
   height: 50px;
 }
+.tushigte:hover {
+  transform: scale(1.1);
+  color: white;
+}
+.border {
+  font-weight: 500;
+  opacity: 0.4;
+}
+.border:hover {
+  color: white;
+}
 .dot {
   padding-left: 5px;
   padding-right: 5px;
@@ -168,7 +181,7 @@
   background-size: 100%;
   height: 350px;
   background-color: rgb(0, 0, 0);
-  margin-top: -150px;
+  margin-top: -40px;
   color: white;
   font-weight: 100;
   font-size: 13px;
@@ -196,60 +209,126 @@
 .cards {
   display: flex;
   justify-content: space-around;
-  margin-top: -220px;
+  margin-top: -200px;
+  width: 100%;
+  /* transition: transform 0.2s; */
+}
+.cards:hover {
+  /* transform: scale(1.1); */
 }
 .card-background1 {
   background-image: url(cover\ pic1.png);
   background-size: 100%;
+  height: 433px;
+  width: 260px;
   border-radius: 10px;
   transition: transform 0.2s;
+  text-shadow: #D1D1D1;
 }
 .card-background1:hover {
   background-size: 110%;
-  transform: width(1.5);
+  transform: scaleX(1.1);
+  transform: scaleY(1.05);
+  height: 450px;
+  width: 270px; 
+  transition: transform 0.2s;
+
+
+
 }
 .card-background2 {
   background-image: url(cover\ pic2.png);
   border-radius: 10px;
   background-size: cover;
+  height: 433px;
+  width: 260px;
+  text-shadow: #D1D1D1;
+
+}
+.card-background2:hover {
+  background-size: 110%;
+  transform: scaleX(1.1);
+  transform: scaleY(1.05);
+  height: 450px;
+  width: 270px;
+  transition: transform 0.2s;
+
 }
 .card-background3 {
   background-image: url(coverpic3.png);
   border-radius: 10px;
   background-size: cover;
+  height: 433px;
+  width: 260px;
+  text-shadow: #D1D1D1;
+}
+.card-background3:hover {
+  background-size: 110%;
+  transform: scaleX(1.1);
+  transform: scaleY(1.05);
+  height: 450px;
+  width: 270px;
+  transition: transform 0.2s;
+
 }
 .card-background4 {
   background-image: url(cover\ pic4.png);
   border-radius: 10px;
   background-size: cover;
+  height: 433px;
+  width: 260px;
+  text-shadow: #D1D1D1;
+}
+.card-background4:hover {
+  background-size: 110%;
+  transform: scaleX(1.1);
+  transform: scaleY(1.05);
+  height: 450px;
+  width: 270px;
+  transition: transform 0.2s;
+
 }
 .card-background5 {
   background-image: url(cover\ pic5.png);
   border-radius: 10px;
   background-size: cover;
+  height: 433px;
+  width: 260px;
+  text-shadow: #D1D1D1;
+}
+.card-background5:hover {
+  background-size: 110%;
+  transform: scaleX(1.1);
+  transform: scaleY(1.05);
+  height: 450px;
+  width: 270px;
+  transition: transform 0.2s;
+
 }
 .card-cover {
-  min-width: 350px;
-  width: 300px;
+  min-width: 250px;
+  /* width: 245px; */
   height: 433px;
   border-radius: 10px;
   padding-top: 10px;
+  text-shadow: #D1D1D1;
 }
 .lead {
   display: flex;
   justify-content: space-between;
-  padding-top: 20px;
-  padding-left: 20px;
+  padding-top: 10px;
+  padding-left: 15px;
   padding-right: 20px;
 }
 .blue-circle {
   width: 10px;
   height: 10px;
   border-radius: 15px;
-  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .read {
   color: white;
+  font-size: 12px;
 }
 .card-textB {
   margin-top: 90px;
@@ -267,15 +346,11 @@
   display: flex;
   justify-content: center;
 }
-.comment {
-  gap: 1px;
-  display: flex;
-  justify-content: center;
-}
+
 .card-title {
   color: white;
   padding-left: 20px;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 .card-button {
   width: 170px;
@@ -286,16 +361,18 @@
   font-size: 10px;
   font-weight: 500;
   color: white;
-  margin-top: 30px;
+  margin-top: 15px;
   margin-left: 20px;
   padding-top: 10px;
 }
 .cover-pic {
-  width: 100%;
+  width: 95%;
   display: flex;
   justify-content: space-around;
   overflow-x: scroll;
-  gap: 30px;
+  overflow-y: hidden;
+  /* gap:; */
+  height: 410px;
 }
 .cover-pic::-webkit-scrollbar {
   display: none;
@@ -315,13 +392,18 @@
   gap: 20px;
   font-weight: 500;
   font-size: 13px;
+  margin-top: 44px;
 }
 .article:hover {
+  /* box-shadow: 0px 0px 50px 4px rgba(194, 193, 193, 0.2); */
+  transform: scaleY(1.05);
+  
 }
 .profile-item {
   display: flex;
   justify-content: start;
   gap: 10px;
+  background-color: whitesmoke
 }
 .article-right {
   align-self: flex-end;
@@ -344,7 +426,8 @@
   letter-spacing: 0.015rem;
 }
 .article-item:hover {
-  box-shadow: 0px 0px 50px 4px rgba(194, 193, 193, 0.3);
+  box-shadow: 0px 0px 50px 4px rgba(194, 193, 193, 0.2);
+  transform: scaleY(1.05);
 }
 .meduushtei {
   display: flex;
@@ -359,37 +442,47 @@
   font-weight: 500;
   font-size: 14px;
   color: rgba(0, 120, 246, 1);
-  width: 75px;
+  width: 185px;
   display: flex;
   padding-top: 20px;
 }
+.text1:hover {
+  color: rgb(0, 120, 246);
+}
 .text2 {
-  font-weight: 900px;
+  font-weight: 700px;
   font-size: 23px;
   padding-left: 50px;
   padding-top: 5px;
   width: 600px;
 }
 .text2:hover {
-  color: rgba(0, 120, 246, 1);
+  color: rgb(0, 120, 246);
 }
 .cover {
-  padding-left: 540px;
+  padding-left: 560px;
   margin-top: -35px;
+  
 }
 .prevweek {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 150px;
   margin-left: 50px;
   gap: 100px;
+  width: 70%;
+  margin-left: 29vh;
 }
 .prevweek-tab1 {
-  width: 215px;
+  /* width: 100vh; */
   height: 65px;
   font-size: 15px;
   font-weight: 700;
   color: rgba(0, 120, 246, 1);
+
+}
+.prevweek-tab1:hover {
+  color: rgb(0, 120, 246);
 }
 .prevweek-tab2 {
   width: 215px;
@@ -397,6 +490,9 @@
   font-size: 15px;
   font-weight: 400;
   color: rgba(136, 136, 136, 1);
+}
+.prevweek-tab2:hover {
+  color: rgb(0, 120, 246);
 }
 .grid-article-first {
   width: 1116px;
@@ -537,7 +633,32 @@
   height: 400px;
 }
 .blur1 {
-  margin-top: 30px;
+  width: 323px;
+  height: 90px;
+  background-color: #404040;
+  border-radius: 18px;
+  margin-top: 50px;
+}
+.blur1:hover{
+  transform: scaleX(1.05);
+  opacity: 0.8; 
+
+  
+}
+.blur-text{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.blur-circle{
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background-color: black;
+  margin-top: -42px;
+  margin-left: 230px;
+}
+.blur-circle:hover {
+  background-color: rgba(0, 120, 246, 1);
 }
 .blur2 {
   margin-top: 15px;
@@ -612,18 +733,22 @@
   width: 208px;
   padding-top: 20px;
 }
+.social-links{
+width: 100%;
+background-color: black;
+}
 .footer-container3 {
-  width: 100%;
+  width: 1151px;
   height: 72px;
   background-color: black;
   margin-top: -100px;
 }
 .social-link {
-  gap: 35px;
+  gap: 175px;
   display: flex;
   justify-content: space-around;
   margin-top: 80px;
   opacity: 20%;
-  margin-left: auto;
+  margin-left: 240px;
   margin-right: auto;
 }
