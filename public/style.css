@@ -190,21 +190,10 @@
   display: flex;
   justify-content: center;
   margin-right: auto;
-  margin-left: auto;
+  /* margin-left: auto; */
   gap: 1200px;
   padding-top: 50px;
-}
-.symbols {
-  background-color: gray;
-  border-radius: 100px;
-  font-weight: 400;
-  font-size: 20px;
-  color: white;
-  width: 60px;
-  height: 30px;
-  display: flex;
-  justify-content: space-around;
-  gap: 5px;
+  width: 400px;
 }
 .cards {
   display: flex;
